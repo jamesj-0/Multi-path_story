@@ -26,6 +26,27 @@ export const stagedStoriesContainer = styled.section`
   justify-content: space-evenly;
 `
 
+export const BackButton = styled.section`
+  width: 7rem;
+  background-color: grey;
+  color: ${vars.offWhite};
+  border-style: none;
+  border-radius: 15px;
+  margin: 0.5rem;
+  cursor: pointer;
+  padding: 1rem;
+
+  transition: all 0.3s;
+
+  &:hover {
+    background: #78788c;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+    top: -2px;
+    left: -2px;
+  }
+`
+
 export const stagedSentence = styled.button`
   background-color: grey;
   color: ${vars.offWhite};
