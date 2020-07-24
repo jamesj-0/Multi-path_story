@@ -31,7 +31,7 @@ export const stagedSentence = styled.button`
   color: ${vars.offWhite};
   border-style: none;
   border-radius: 15px;
-  margin: 1rem;
+  margin: 0.5rem;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -69,4 +69,11 @@ export const formInput = styled.input`
   &:focus {
     border-bottom: 2px solid black;
   }
+`
+
+export const formButton = styled.button`
+  margin: 1rem;
+  height: 2rem;
+  border-radius: 6px;
+  border: 1px solid #ccc5c9;
 `

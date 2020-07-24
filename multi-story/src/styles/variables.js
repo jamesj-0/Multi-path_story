@@ -1,7 +1,7 @@
 // This is where I will store my global varibles for this web app.
 
 //dimensions
-export const cardWidth = '75%'
+export const cardWidth = '100%'
 export const cardHeight = '100vh'
 
 //colours
